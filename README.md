@@ -25,11 +25,11 @@ To create a box:
 3.  Build the box:
 
         $ cd packer-FreeBSD
-        $ packer build packer/FreeBSD-10.1-RELEASE-amd64.json
+        $ packer build packer/FreeBSD.json
 
 4.  Add it to the list of Vagrant boxes:
 
-        $ vagrant box add builds/FreeBSD-10.1-RELEASE-amd64.box --name FreeBSD-10.1-RELEASE-amd64
+        $ vagrant box add builds/FreeBSD-10.2-BETA2-amd64.box --name FreeBSD-10.2-BETA2-amd64
 
 ### Handling `.iso` and `.box` files
 
