@@ -2,9 +2,9 @@
   "variables": {
     "guest_os_type": "FreeBSD_64",
     "release": "10.2",
-    "branch": "BETA2",
+    "branch": "RC1",
     "arch": "amd64",
-    "iso_sha256": "93af0e90f9bd804a8f719fc2ecbb92631debe8e0c46bf6d2f2ebf078a38e1242",
+    "iso_sha256": "ff1447260611b503613411a7d9e768ffc73e4597fe519504749a9f0327ea5933",
     "mirror": "http://ftp.freebsd.org/pub/FreeBSD"
   },
   "provisioners": [
